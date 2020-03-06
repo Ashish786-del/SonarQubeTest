@@ -6,7 +6,7 @@ dotnet = 'path\\to\\dotnet.exe'
 stages {
 stage ('Checkout') {
             steps {
-                 git credentialsId: 'Ashish786-del', url: 'https://github.com/Ashish786-del/SampleCliApp',branch: 'master'
+                 git credentialsId: 'Ashish786-del', url: 'https://github.com/Ashish786-del/SonarQubeTest',branch: 'master'
             }
 }
 
